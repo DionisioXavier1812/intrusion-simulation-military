@@ -1,0 +1,5 @@
+[23:20] Usuario oficial_ops acessou arquivo restrito. 
+[23:20] Escalonou privilegios para root. 
+[23:20] Copiou arquivo para pasta usb. 
+[23:20] Comunicacao externa para 203.0.113.50. 
+[23:21] Classificado como INSIDER THREAT MILITAR SIMULADO. 

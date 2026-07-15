@@ -1,0 +1,5 @@
+Jul 14 23:20:01 server auth: User "oficial_ops" accessed restricted file /mil/intel/planos.txt 
+Jul 14 23:20:10 server auth: User "oficial_ops" escalated privileges to root via sudo 
+Jul 14 23:20:20 server fs: Copied /mil/intel/planos.txt to /home/oficial_ops/usb/ 
+Jul 14 23:20:30 server net: Outbound connection to 203.0.113.50:443 
+Jul 14 23:20:40 server audit: Policy violation: access to classified folder by non-authorized role 

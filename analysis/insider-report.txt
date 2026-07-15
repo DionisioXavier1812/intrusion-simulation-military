@@ -1,0 +1,11 @@
+RELATORIO DE INCIDENTE - INSIDER THREAT 
+=============================================== 
+Vetor: Usuario interno com acesso indevido 
+Impacto: Exposicao de arquivo /mil/intel/planos.txt 
+Movimento: Copia para usb + comunicacao externa 
+Severidade: ALTA 
+Recomendacoes: 
+- Revisar perfis de acesso 
+- Implementar monitoramento de atividades internas 
+- Auditar logs de acesso e copia de arquivos 
+- Treinamento de consciencia de seguranca 

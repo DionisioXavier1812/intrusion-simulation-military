@@ -1,0 +1,4 @@
+IOC,Usuario,oficial_ops 
+IOC,Arquivo,/mil/intel/planos.txt 
+IOC,Destino,/home/oficial_ops/usb/ 
+IOC,IP,203.0.113.50 
