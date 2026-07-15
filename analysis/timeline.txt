@@ -1,2 +1,4 @@
-Falha de autentica‡Æo detectada em 192.168.1.10 
-Poss¡vel brute force SSH 
+[23:01] M£ltiplas falhas de autentica‡Æo detectadas (usu rio admin). 
+[23:02] Acesso bem-sucedido para root vindo do mesmo IP. 
+[23:03] Poss¡vel brute force seguido de comprometimento. 
+[23:04] IOC confirmado: 192.168.1.10. 
