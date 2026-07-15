@@ -1,60 +1,76 @@
+---
+
+# 🛡️ Módulos do Lab SOC Militar
+
+Este laboratório SOC militar simula três cenários críticos de segurança encontrados em ambientes de defesa, cada um com logs, scripts, detecções, relatórios e linha do tempo próprios.
+
+## 🔥 1. Módulo de Intrusão SSH (Brute Force + Escalonamento)
+Simulação de ataque externo visando comprometer credenciais administrativas.
+
+**Inclui:**
+- Tentativas de brute force SSH
+- Acesso bem-sucedido suspeito
+- Escalonamento de privilégios via sudo
+- Credential dumping (/etc/shadow)
+- Exfiltração via SCP
+- Movimento lateral entre hosts
+- Scripts de hunting e correlação
+- Relatório tático e final
+- Mapeamento MITRE ATT&CK
+
+**Objetivo:** Treinar detecção e resposta a intrusões externas.
 
 ---
 
-## ??? Scripts
+## 🦠 2. Módulo de Ransomware Militar (Simulado)
+Simulação de um ataque de criptografia maliciosa, totalmente fictício e seguro.
 
-### ?? brute-force.cmd
-Simula tentativas repetidas de login SSH contra um host alvo.
+**Inclui:**
+- Processo suspeito (mil_ransom.exe)
+- Criptografia simulada (.milcrypt)
+- Criação de nota de resgate
+- Comunicação externa suspeita
+- IOCs dedicados
+- Linha do tempo do ataque
+- Relatório SOC de ransomware
+- Scripts de resposta e restauração
 
-### ?? parse-auth.cmd
-Procura por eventos de "Failed password" dentro do arquivo `auth.log`.
-
-### ?? detect-lateral.cmd
-Utiliza `wevtutil` para identificar eventos 4624 (logon) que podem indicar movimento lateral.
-
----
-
-## ?? Fluxo de Investiga��o
-
-1. **Gerar logs**  
-   Criar ou coletar logs contendo falhas de autentica��o.
-
-2. **Executar parse-auth.cmd**  
-   Identificar tentativas suspeitas de acesso.
-
-3. **Executar detect-lateral.cmd**  
-   Verificar se houve logons incomuns no sistema.
-
-4. **Documentar tudo em analysis/timeline.txt**  
-   Criar uma linha do tempo do incidente.
+**Objetivo:** Treinar análise, contenção e recuperação em incidentes de ransomware.
 
 ---
 
-## ?? Contexto Militar
+## 🕵️ 3. Módulo de Insider Threat Militar
+Simulação de um ataque interno envolvendo acesso indevido a arquivos classificados.
 
-Este projeto faz parte da minha jornada de transi��o entre:
+**Inclui:**
+- Acesso a arquivos restritos
+- Escalonamento de privilégios por usuário interno
+- Cópia de arquivos para mídia removível (USB)
+- Comunicação externa não autorizada
+- Violação de política militar
+- IOCs internos
+- Linha do tempo completa
+- Relatório SOC de Insider Threat
+- Script de resposta (bloqueio de conta, auditoria)
 
-- Defesa militar (Ex�rcito, FAB)
-- Seguran�a t�tica (Shot Fair, COP Internacional)
-- Seguran�a institucional
-- Cyber Defense / SOC
-
-A proposta � integrar disciplina, postura greyman e mentalidade de defesa ao ambiente cibern�tico.
-
----
-
-## ?? Pr�ximos Passos
-
-- Adicionar mais logs reais
-- Criar detec��es MITRE ATT&CK
-- Automatizar an�lise com PowerShell
-- Criar dashboards simples em CSV/HTML
-- Expandir para um mini-lab SOC
+**Objetivo:** Treinar detecção de comportamento interno malicioso e violação de políticas.
 
 ---
 
-## ?? Autor
+# 🎯 Visão Geral do Lab SOC Militar
 
-**Dionisio Aparecido da Silva Xavier**  
-Cyber Defense | SOC | Seguran�a Militar | Greyman Mindset  
-GitHub: https://github.com/DionisioXavier1812
+Este repositório representa um laboratório completo de defesa cibernética inspirado em ambientes militares, contendo:
+
+- Logs realistas (fictícios e seguros)
+- Scripts de detecção e hunting
+- Correlação de eventos
+- Relatórios táticos e finais
+- IOCs externos e internos
+- Simulação de resposta e restauração
+- Dashboard CSV
+- Relatório HTML
+- Doutrina militar aplicada ao SOC
+
+O objetivo é demonstrar disciplina, prontidão e mentalidade greyman aplicadas à segurança cibernética.
+
+---
