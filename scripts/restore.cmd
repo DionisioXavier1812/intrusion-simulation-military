@@ -1,0 +1,3 @@
+echo Restaurando ambiente... 
+echo Criando novo auth.log 
+echo Ambiente restaurado. 

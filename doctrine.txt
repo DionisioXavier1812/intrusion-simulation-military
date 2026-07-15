@@ -1,0 +1,3 @@
+Este documento descreve o fluxo SOC militar aplicado ao incidente SSH. 
+Inclui: coleta, analise, correlacao, resposta, exfiltracao e pos-incidente. 
+Baseado em principios militares: disciplina, prontidao, greyman. 

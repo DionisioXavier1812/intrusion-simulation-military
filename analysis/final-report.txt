@@ -1,0 +1,13 @@
+RELATORIO FINAL DO INCIDENTE 
+=============================================== 
+Origem do ataque: 192.168.1.10 
+Vetor: brute force SSH 
+Comprometimento: admin e root 
+Escalonamento: sudo + leitura de /etc/shadow 
+Exfiltracao: passwd, secure, keys.txt 
+Severidade: CRITICA 
+Recomendacoes: 
+- Bloquear IP atacante 
+- Resetar credenciais 
+- Auditar sistema 
+- Revisar politicas de senha 
