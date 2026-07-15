@@ -1,0 +1,2 @@
+Este documento descreve o fluxo SOC militar aplicado ao incidente SSH. 
+Inclui: coleta, an lise, correla‡Æo, resposta e p¢s-incidente. 

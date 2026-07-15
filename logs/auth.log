@@ -1,1 +1,10 @@
 Jul 14 22:58:01 server sshd[1234]: Failed password for invalid user root from 192.168.1.10 port 22 ssh2 
+Jul 14 23:01:12 server sshd[2222]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2 
+Jul 14 23:01:15 server sshd[2222]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2 
+Jul 14 23:01:18 server sshd[2222]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2 
+Jul 14 23:02:01 server sshd[3333]: Accepted password for root from 192.168.1.10 port 22 ssh2 
+Jul 14 23:05:12 server sshd[4001]: Failed password for invalid user intel from 192.168.1.10 port 22 ssh2 
+Jul 14 23:05:15 server sshd[4001]: Failed password for invalid user ops from 192.168.1.10 port 22 ssh2 
+Jul 14 23:05:18 server sshd[4001]: Failed password for invalid user recon from 192.168.1.10 port 22 ssh2 
+Jul 14 23:06:01 server sshd[5001]: Accepted password for admin from 192.168.1.10 port 22 ssh2 
+Jul 14 23:06:15 server sudo[5002]: admin : TTY=pts/0 ; PWD=/root ; COMMAND=/bin/cat /etc/shadow 
