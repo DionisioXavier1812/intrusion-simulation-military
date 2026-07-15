@@ -1,0 +1,2 @@
+Falha de autentica‡Æo detectada em 192.168.1.10 
+Poss¡vel brute force SSH 
