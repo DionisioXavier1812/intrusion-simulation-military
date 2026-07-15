@@ -1,0 +1,12 @@
+RELATORIO DE INCIDENTE - RANSOMWARE MILITAR 
+=============================================== 
+Vetor: Execucao de processo suspeito mil_ransom.exe 
+Impacto: Arquivos criptografados (.milcrypt) 
+Nota de resgate: LEIA_AGORA.txt 
+Comunicacao externa: 45.199.22.10 
+Severidade: CRITICA 
+Recomendacoes: 
+- Isolar host imediatamente 
+- Bloquear IP externo 
+- Restaurar arquivos via backup 
+- Investigar vetor inicial 

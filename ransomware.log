@@ -1,0 +1,5 @@
+Jul 14 23:10:01 server kernel: Suspicious process detected: mil_ransom.exe 
+Jul 14 23:10:05 server fs: File encrypted: /home/admin/documento1.txt.milcrypt 
+Jul 14 23:10:06 server fs: File encrypted: /home/admin/relatorio.pdf.milcrypt 
+Jul 14 23:10:10 server fs: Ransom note created: /home/admin/LEIA_AGORA.txt 
+Jul 14 23:10:15 server net: Outbound connection attempt to 45.199.22.10:443 

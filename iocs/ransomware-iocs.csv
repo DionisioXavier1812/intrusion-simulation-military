@@ -1,0 +1,4 @@
+IOC,Processo,mil_ransom.exe 
+IOC,Extensao,.milcrypt 
+IOC,IP,45.199.22.10 
+IOC,Arquivo,LEIA_AGORA.txt 

@@ -1,0 +1,5 @@
+[23:10] Processo suspeito mil_ransom.exe detectado. 
+[23:10] Arquivos come‡aram a ser criptografados (.milcrypt). 
+[23:10] Nota de resgate criada. 
+[23:10] Tentativa de comunica‡Æo com IP externo 45.199.22.10. 
+[23:11] Ataque classificado como RANSOMWARE MILITAR SIMULADO. 
