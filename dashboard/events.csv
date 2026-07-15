@@ -1,5 +1,7 @@
 Tipo,Descricao,Severidade 
 BruteForce,Tentativas repetidas de login SSH,Alta 
-PrivEsc,Escalonamento via sudo e /etc/shadow,Cr¡tica 
-Exfil,Envio de arquivos sens¡veis via scp,Cr¡tica 
-LoginSucesso,Acesso admin/root ap¢s falhas,Alta 
+PrivEsc,Escalonamento via sudo e leitura de shadow,Cr¡tica 
+Exfil,Envio de arquivos sens¡veis via SCP,Cr¡tica 
+LateralMovement,Acessos vindos de m£ltiplos hosts,Alta 
+Persistence,Tarefa agendada maliciosa,Alta 
+C2,Comunica‡Æo com servidor externo,Cr¡tica 
