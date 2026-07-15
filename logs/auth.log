@@ -11,3 +11,5 @@ Jul 14 23:06:15 server sudo[5002]: admin : TTY=pts/0 ; PWD=/root ; COMMAND=/bin/
 Jul 14 23:07:01 server scp[6001]: Sent /etc/passwd to 192.168.1.10 
 Jul 14 23:07:05 server scp[6001]: Sent /var/log/secure to 192.168.1.10 
 Jul 14 23:07:10 server scp[6001]: Sent /home/admin/keys.txt to 192.168.1.10 
+Jul 14 23:08:01 server sshd[7001]: Accepted password for admin from 192.168.1.11 port 22 ssh2 
+Jul 14 23:08:10 server sshd[7002]: Accepted password for admin from 192.168.1.12 port 22 ssh2 
